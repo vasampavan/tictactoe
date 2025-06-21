@@ -106,7 +106,10 @@ function TicTacToe() {
                     <div className="box" ref={box8} onClick={(e) => handleToggle(e, 8)}></div>
                 </div>
             </div>
-            <button onClick={reset}>{buttontext}</button>
+            {lock && <button onClick={reset}>{buttontext}</button>}
+            {gameover && <button onClick={reset}>{buttontext}</button>}
+            
+            
         </div>
     );
 }
