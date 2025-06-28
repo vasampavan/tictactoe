@@ -1,12 +1,44 @@
-# React + Vite
+# Tic Tac Toe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A classic Tic Tac Toe game built using React. Play against a friend in a 2-player mode with an interactive and responsive interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Two-player mode
+- Interactive game board with visual indicators for X and O
+- Option to restart the game
+- Responsive design for desktop and mobile
 
-## Expanding the ESLint configuration
+## Possible Future Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- AI-based single-player mode
+- Highlight the winning combination
+- Score tracking between rounds
+
+
+## Installation
+
+To run the app locally:
+
+1. Clone this repository.
+2. Open the terminal and navigate to the project directory.
+3. Run `npm install` to install dependencies.
+4. Run `npm run dev` to start the development server.
+5. Open your browser at `http://localhost:5173`.
+
+## Usage
+
+Click on the grid to place X or O. The game will declare a winner or draw when applicable. Click "Restart" to play again.
+
+## Demo
+
+[https://vasampavan.github.io/tictactoe/](https://vasampavan.github.io/tictactoe/) <!-- Replace with actual link -->
+
+## Technologies Used
+
+- React.js  
+- CSS
+
+## Contributing
+
+Feel free to contribute by opening issues or pull requests for improvements.
